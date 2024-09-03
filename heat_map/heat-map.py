@@ -5,7 +5,7 @@ import numpy as np
 from jetson_inference import depthNet
 from jetson_utils import videoSource, videoOutput, cudaOverlay, cudaDeviceSynchronize, Log
 
-from depthnet_utils import depthBuffers
+from OriginalModels.depthnet_utils import depthBuffers
 
 # parse the command line
 parser = argparse.ArgumentParser(description="Mono depth estimation on a video/image stream using depthNet DNN.",
