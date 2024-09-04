@@ -96,7 +96,7 @@ while True:
             #prevod barvy
             gray_img = convert_color(resized_img, "gray8") # preved na odstiny sedi
             cudaDeviceSynchronize() #synchronizuj vlakno programu s GPU
-            saveImage(f"Images/{image_id}_{x}.jpg", gray_img) # uloz
+            saveImage(f"assets/{image_id}_{x}.jpg", gray_img) # uloz
     image_id=image_id+1
     
     # render the image

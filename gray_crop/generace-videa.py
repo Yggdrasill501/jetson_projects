@@ -2,7 +2,7 @@ import os
 import cv2
 from PIL import Image
 
-adresar = "./Images/"
+adresar = "./assets/"
 
 output_filename = "detekovano.avi"
 
